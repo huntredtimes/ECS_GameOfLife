@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <title>ECS Game of Life Workshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style> body {
+        font-family: system-ui, sans-serif;
+        margin: 16px;
+        background: #111;
+        color: #eee;
+    }
+
+    .toolbar {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+    }
+
+    canvas {
+        image-rendering: pixelated;
+        background: #1a1a1a;
+        border: 1px solid #333;
+    }
+
+    .stat {
+        opacity: 0.8;
+    }
+
+    button, input[type="range"] {
+        cursor: pointer;
+    }
+
+    .panel {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    } </style>
+</head>
+<body><h1>ECS Game of Life</h1>
+<div class="toolbar">
+    <button id="btnStart">Start</button>
+    <button id="btnPause">Pause</button>
+    <button id="btnStep">Step</button>
+    <button id="btnRandom">Random</button>
+    <button id="btnClear">Clear</button>
+    <label>Speed <input id="speed" type="range" min="1" max="60" value="10"/></label> <span class="stat">Tick: <span
+        id="tick">0</span></span> <span class="stat">Alive: <span id="aliveCount">0</span></span> <span class="stat">Grid: <span
+        id="gridSize"></span></span></div>
+<canvas id="canvas" width="800" height="600"></canvas>
+<p>Klicke auf das Grid, um Zellen umzuschalten. Verwende Start/Pause/Step. Viel Spaß!</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
