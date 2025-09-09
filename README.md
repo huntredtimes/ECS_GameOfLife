@@ -11,11 +11,11 @@ Willkommen zu unserem ECS-Workshop! In diesem Projekt lernst du die Grundlagen e
 * Jede Zelle ist entweder lebendig oder tot.
 * Jede Runde (Generation) gilt für JEDE Zelle:
 * Ist die Zelle lebendig:
-** Mit weniger als 2 lebenden Nachbarn stirbt sie (Einsamkeit).
-** Mit 2 oder 3 lebenden Nachbarn bleibt sie am Leben.
-** Mit mehr als 3 lebenden Nachbarn stirbt sie (Überbevölkerung).
+  * Mit weniger als 2 lebenden Nachbarn stirbt sie (Einsamkeit).
+  * Mit 2 oder 3 lebenden Nachbarn bleibt sie am Leben.
+  * Mit mehr als 3 lebenden Nachbarn stirbt sie (Überbevölkerung).
 * Ist sie tot:
-** Mit exakt 3 lebenden Nachbarn wird sie lebendig (Nachwuchs).
+  * Mit exakt 3 lebenden Nachbarn wird sie lebendig (Nachwuchs).
 
 # 🚀 Projekt starten & ausprobieren
 ## Variante 1: Lokal
