@@ -21,17 +21,17 @@ Willkommen zu unserem ECS-Workshop! In diesem Projekt lernst du die Grundlagen e
 ## Variante 1: Lokal
 * Repo clonen
 * bash
-** git clone https://github.com/DEINUSERNAME/ECS_GameOfLife.git
-** cd ECS_GameOfLife
+ * git clone https://github.com/DEINUSERNAME/ECS_GameOfLife.git
+ * cd ECS_GameOfLife
 * Öffne die Datei index.html im Browser
-** (Doppelklick genügt oft – falls nötig per lokalem Server, z.B. mit python -m http.server)
+  * (Doppelklick genügt oft – falls nötig per lokalem Server, z.B. mit python -m http.server)
 * Spiele mit dem Grid!
-** Felder anklicken, „Start“, „Pause“, „Random“ und „Step“ nutzen.
+  * Felder anklicken, „Start“, „Pause“, „Random“ und „Step“ nutzen.
 
 ## Variante 2: Im Browser mit CodeSandbox
 * Gehe zu: codesandbox.io
 * Importiere das GitHub-Repo über „Create Sandbox → Import Project“
-** GitHub-URL: https://github.com/DEINUSERNAME/ECS_GameOfLife
+  * GitHub-URL: https://github.com/DEINUSERNAME/ECS_GameOfLife
 * Starte und interagiere im Browser!
 
 # 🗂️ Projektüberblick
